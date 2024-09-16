@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.table-group {
+    flex-wrap: wrap;
+    display: flex;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+th, td {
+    text-align: center;
+    padding: 12px;
+}
+
+.header-group {
+    margin-right: 5%;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #2d3748;
+    line-height: 1.25;
+}
+
+.butn {
+    margin-bottom: 10px;
+}
+
+.create {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 35px;
+}
+
+.inventory-area {
+    text-align: center;
+    padding: 5px;
+    border-radius: 4px;
+    width: fit-content;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 900;
+}
